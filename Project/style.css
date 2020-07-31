@@ -1,0 +1,197 @@
+body{
+   
+    height: 80vh;
+    max-width: 100%;
+    margin: 50px 400px 20px;
+
+}
+#layout{
+    height: 60%;
+    max-width: 80%;
+    background-image: url("watch.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center ;
+    margin: 100px 50px;
+
+}
+#layout #div1 #time{
+ height: 34px;
+ width: 52%;
+ background-color: whitesmoke;
+text-align: center;
+    
+}
+#layout #div1{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+#layout #div1 button{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:teal;
+    height: 30px;
+    margin-top: 5px;
+    width: 70px;
+
+}
+
+
+
+@media (min-width:375px)and (max-width:424px){
+    body{
+        max-width: 100%;
+        margin: 20px 30px 20px;
+    }
+    #layout{
+        margin-top:90px;
+        
+    }
+    #layout #div1 button{
+
+    height: 15px;
+    font-size: 8px;
+    margin-left: -5px;
+    width: 35px;
+
+}
+#layout #div1 #time{
+    height: 20px;
+    width: 51%;
+    font-size: 15px;
+    margin-left: -5px;
+  }
+}
+
+@media (min-width:425px)and (max-width:767px){
+    body{
+        max-width: 100%;
+        margin: 20px 30px 20px;
+    }
+    #layout{
+        margin-top:90px;
+        
+    }
+    #layout #div1 button{
+
+    height: 20px;
+    font-size: 10px;
+    margin-left: -5px;
+    width: 44px;
+
+}
+#layout #div1 #time{
+    height: 20px;
+    width: 53%;
+    font-size: 15px;
+    margin-left: -5px;
+  }
+}
+@media (min-width:768px)and (max-width:1023px){
+    body{
+        max-width: 100%;
+        margin: 20px 30px 20px;
+    }
+    #layout{
+        margin-top:90px;
+        
+    }
+    #layout #div1 button{
+
+        width: 91.5px;
+        
+    }
+    #layout #div1 #time{
+        margin-top:5px;
+    }
+ 
+}
+
+@media (min-width:1024px)and (max-width:1439px){
+    body{
+        max-width: 100%;
+        margin: 50px 80px 50px;
+    }
+    #layout{
+        margin-top:90px; 
+        margin-left: 100px;
+        
+    }
+    #layout #div1 {
+        margin-left: 180px;
+    }
+    #layout #div1 button{
+        
+        width: 100px;
+        height: 40px;
+        
+  }
+    #layout #div1 #time{
+        margin-top:15px;
+        width:40.3%;
+        height: 40px;
+        font-size: 30px;
+    }
+  
+}
+@media (min-width:1440px)and (max-width:2559px){
+   
+    body{
+        max-width: 100%;
+        margin: 80px 90px 60px;
+    }
+    #layout{
+        margin-top:90px; 
+        
+    }
+    #layout #div1 {
+        margin-left: 150px;
+       
+    }
+    #layout #div1 button{
+        
+        width: 120px;
+        height:40px;
+        margin-top: 15px;
+        
+    
+    }
+    #layout #div1 #time{
+        margin-top:50px;
+        width:44.5%;
+        height: 40px;
+        font-size: 38px;
+    }
+  
+
+}
+@media (min-width:2560px){
+
+    
+    #layout{
+        margin:160px; 
+        
+    }
+    #layout #div1 {
+        margin-left: 120px;
+       
+    }
+    #layout #div1 button{
+        
+        width: 200px;
+        height:70px;
+        margin-top: 40px;
+        font-size: 33px;
+
+    
+    }
+    #layout #div1 #time{
+        margin-top:180px;
+        width:48.5%;
+        height: 70px;
+        font-size: 55px;
+    }
+}
